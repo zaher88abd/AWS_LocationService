@@ -18,8 +18,11 @@ allprojects {
     repositories {
         google()
         jcenter()
+        maven {
+            url = "https://dl.bintray.com/maplibre/maplibre-gl-native"
+        }
     }
-    
+
 }
 
 task clean(type: Delete) {

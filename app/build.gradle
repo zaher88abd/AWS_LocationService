@@ -44,5 +44,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     implementation 'com.amazonaws:aws-android-sdk-mobile-client:2.22.2'
     implementation 'com.amazonaws:aws-android-sdk-location:2.20.1'
-    implementation 'org.maplibre.gl:android-sdk:9.4.0'
+    implementation 'org.maplibre.gl:android-sdk:9.2.1'
 }
