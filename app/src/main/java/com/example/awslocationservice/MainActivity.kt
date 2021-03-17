@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
                                 val request = SearchPlaceIndexForTextRequest()
 
                                 request.text = "Space Needle"
-                                request.indexName = "MyPlaceIndex"
+                                request.indexName = "MapLocation"
 
                                 val response = client.searchPlaceIndexForText(request)
 
