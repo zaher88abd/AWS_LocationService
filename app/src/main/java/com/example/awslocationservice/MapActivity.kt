@@ -91,4 +91,5 @@ class MapActivity : AppCompatActivity() {
         super.onDestroy()
         mapView?.onDestroy()
     }
+
 }
